@@ -11,7 +11,7 @@ const data = {
          id: 1,
          imgSrc: Img1,
          title: "Application Development",
-        desc1: "Design . 12345",
+        desc1: "Design.",
          desc2: "Coding & Architecture .",
          desc3:"Business & GAP Analysis . " ,
         
