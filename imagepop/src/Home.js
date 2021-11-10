@@ -18,7 +18,7 @@ const Home = () => {
 
 	return (
 		<>
-			{/* <h1>Home </h1> */}
+			<h1>Home </h1>
 
 			<section  id="services" className="py-4 py-lg container" >
 				<div className="row justify-content-center align-item-center" >
