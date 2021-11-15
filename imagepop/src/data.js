@@ -4,11 +4,14 @@ import Img3 from "./assets/img3.jpg";
 import Img4 from "./assets/img4.jpg";
 import Img5 from "./assets/img5.jpg";
 import Img6 from "./assets/img6.jpg";
+import { faFileCode ,  faFileUpload, faUser , faCog , faCalendar ,  faEnvelope  } from '@fortawesome/free-solid-svg-icons';
+
 
 const data = {
    cardData: [
       {
          id: 1,
+         icon: faFileCode , 
          imgSrc: Img1,
          title: "Application Development",
         desc1: "Design.",
@@ -19,8 +22,9 @@ const data = {
 
       {
          id: 2,
+         icon: faFileUpload, 
          imgSrc: Img2,
-         title: "Customization & Implementation",
+         title: "Customization & Implementation" ,
          desc1: "Banking Applications Implementation .",
          desc2: "Data Migration using tools and best practices.",
         
@@ -28,6 +32,7 @@ const data = {
 
       {
          id: 3,
+         icon: faEnvelope ,
          imgSrc: Img3,
          title: "Support & Maintenance ",
          desc1: "Support for Applications .",
@@ -38,6 +43,7 @@ const data = {
 
       {
          id: 4,
+         icon: faCog,
          imgSrc: Img4,
          title: "Middleware Services",
          desc1: "EAI Development Integration to Enable STP  .",
@@ -47,6 +53,7 @@ const data = {
 
       {
          id: 5,
+         icon: faUser,
          imgSrc: Img5,
          title: "Quality Engineering & Assurance",
          desc1: "Functional Testing QC to ALM Testing Test Data Management .",
@@ -56,6 +63,7 @@ const data = {
 
       {
          id: 6,
+         icon: faCalendar,
          imgSrc: Img6,
          title: "Project & Product Management ",
          desc1: "project management methodologies without compromising time and budget.",

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import data from "./data";
 import Model from "./Model";
-
+import './Home.css';
+import{FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 
 
@@ -18,28 +19,31 @@ const Home = () => {
 
 	return (
 		<>
-			<h1>Home </h1>
+			{/* <h1>Home </h1> */}
+			
 
-			<section  id="services" className="py-4 py-lg container" >
-				<div className="row justify-content-center align-item-center" >
+			<section  id="services" className="py-4 py-lg container rounded  " >
+				<div className="row justify-content-center align-item-center    " >
+				{/* border border-white */}
 					{data.cardData.map((item, index) => {
 						return (
 							<div
-								className="col-11 col-md-3 col-lg-3 mx-1 mb-3"
+								className="col-11 col-md-3 col-lg-4 mx-1 mb-4 "
 								key={index}
 							>
 								<div className="card p-0 overflow-hidden h-100 shadow "  >
-									<img
+									{/* <img
 										src={item.imgSrc}
 										className="card-img-top"
 										alt=""
-									/>
-
+									/> */}
+								
+                                       <FontAwesomeIcon icon={item.icon} className="icon   justify-content-center"  style={{marginLeft:"191px" , marginTop:"30px" , color:"white" }}/> 
 									<div className="card-body">
 										<h5 className="card-title">{item.title}</h5>
 										<p className="card-text"></p>
 										<button
-											className="btn btn-primary"
+											className="btn btn-light" 
 											onClick={() =>
 												getData(item.imgSrc,item.title, item.desc1, item.desc2,item.desc3)
 											}
