@@ -20,7 +20,6 @@ const Home = () => {
 	return (
 		<>
 			{/* <h1>Home </h1> */}
-			
 
 			<section  id="services" className="py-4 py-lg container rounded  " >
 				<div className="row justify-content-center align-item-center    " >
